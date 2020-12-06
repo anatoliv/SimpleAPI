@@ -18,7 +18,7 @@ namespace SimpleAPI.Tests
         public void GetReturnsCorrectNumber()
         {
             var returnValue = controller.Get(1);
-            Assert.Equal("Bracing xxx", returnValue);
+            Assert.Equal("Bracing", returnValue);
         }
     }
 }
